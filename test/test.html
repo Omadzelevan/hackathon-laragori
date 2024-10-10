@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style3.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../Nextstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="first-page">
+      <div class="first-half">
+        <div class="logo-place">
+          <img src="./assests/Vector.svg" alt="Vector logo" />
+          <img src="./assests/Redberry Knight Cup-logo.png" alt="Redberry Knight Cup logo" />
+        </div>
+        <div class="img-div-2">
+          <div class="praza-div">
+            <p class="f-p">&quot;When you see a good move,</p>
+            <p class="s-p">look for a better one.&quot;</p>
+          </div>
+        </div>
+        <p class="avtor">‐ Emanuel Lasker</p>
+      </div>
+
+      <div class="second-page">
+        <div class="start-text">
+          <h1>Start Creating Your Account</h1>
+        </div>
+        <div class="steps-div-and-erros">
+          <div class="steps-div">
+            <div class="steps">
+              <img src="./assests/Frame 9.svg" alt="Step indicator" />
+              <div class="line"></div>
+              <p>2</p>
+            </div>
+            <div class="step-2">
+              <p>Personal Information</p>
+              <p>Chess Experience</p>
+            </div>
+          </div>
+          <div class="errors">
+            <h1>dsvn</h1>
+          </div>
+        </div>
+        <div class="info-text-div">
+          <h1>Chess Experience</h1>
+          <p>This is basic information fields</p>
+        </div>
+
+        <!-- Dropdowns for experience -->
+        <div class="options2">
+          <!-- Dropdown 1 -->
+          <div class="main-div-op">
+            <div class="tooltip">
+              <span class="tooltiptext">Please enter a valid value.</span>
+            </div>
+            <p class="selection-p1 input-exp" id="input-exp" required>
+              Choose your experience <span class="star">*</span>
+            </p>
+            <img class="icon-down" src="./assests/Redberry Knight Cup_files/chevron-down.svg" alt="Chevron down" />
+            <img class="icon-up hidden" src="./assests/Redberry Knight Cup_files/chevron-up.svg" alt="Chevron up" />
+            <ul class="options2-div hidden-optionss-div hidden" id="hiddiv1">
+              <li>Beginner</li>
+              <li>Intermediate</li>
+              <li>Professional</li>
+            </ul>
+          </div>
+
+          <!-- Dropdown 2 -->
+          <div class="main-div-op2">
+            <div class="select-place input-exp2">
+              <p class="selection-p" required>
+                Choose your favorite chess player <span class="star">*</span>
+              </p>
+              <img class="icon-down2 icon-down-2" src="./assests/Redberry Knight Cup_files/chevron-down.svg" alt="Chevron down" />
+              <img class="icon-up2 icon-up-2 hidden2" src="./assests/Redberry Knight Cup_files/chevron-up.svg" alt="Chevron up" />
+            </div>
+
+            <ul id="hiddiv" class="options2-div2 hidden-optionss-div-2 hidden2 list">
+              <li class="li" id="li">
+                Kasparov
+                <img class="img-selected img-indiv" src="https://api.accepted.ge/images/kasparov.jpg" alt="Kasparov" />
+              </li>
+              <li class="li" id="li">
+                Karpov
+                <img class="img-selected img-indiv" src="https://api.accepted.ge/images/karpov.jpg" alt="Karpov" />
+              </li>
+              <li class="li" id="li">
+                Fischer
+                <img class="img-selected img-indiv" src="https://api.accepted.ge/images/fischer.jpg" alt="Fischer" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Radio buttons -->
+        <div class="choice">
+          <p class="question">
+            Have you participated in the Redberry Championship? <span class="star">*</span>
+          </p>
+          <div class="flex-choice">
+            <input type="radio" name="seconds" id="yesRadio" value="Yes" />
+            <label for="yesRadio">Yes</label>
+
+            <input type="radio" name="seconds" id="noRadio" value="No" />
+            <label for="noRadio">No</label>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons buttons-3">
+          <a class="a-1" href="./nextindex.html">Back</a>
+          <button class="a-2" id="nextButton" type="submit" disabled>Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./scripts.js"></script>
+  </body>
+</html>

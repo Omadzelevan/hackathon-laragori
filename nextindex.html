@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Nextstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="first-page">
+      <div class="first-half">
+        <div class="logo-place">
+          <img src="./hackaton-project/logo.png" alt="" />
+        </div>
+        <div class="img-div-2">
+          <div class="praza">
+            <div class="praza-div">
+              <span class="f-p">
+                &quot;Never trust everything you see on the computer
+                screen&quot;
+              </span>
+              <br />
+              <br />
+              <span class="m-p">- Kevin Mitnik</span>
+            </div>
+          </div>
+        </div>
+        <p class="avtor">‐Emanuel Lasker</p>
+      </div>
+
+      <div class="second-page">
+        <div class="start-text">
+          <h1>Start Creating Your Account</h1>
+        </div>
+        <div class="steps-div-and-erros">
+          <div class="steps-div">
+            <div class="steps">
+              <p>1</p>
+              <div class="line"></div>
+              <p>2</p>
+            </div>
+            <div class="step-2">
+              <p>Personal information</p>
+              <p>Hacking experience</p>
+            </div>
+          </div>
+          <div class="main-eror-div">
+            <div id="name-error" class="errors nameError hidden">
+              <div class="er-div-1">
+                <p>Invalid Name</p>
+                <img
+                  src="./assests/close.png"
+                  alt="error"
+                  class="error-icon1"
+                />
+              </div>
+              <div class="er-div-2">
+                <p class="error-message">Please enter valid name</p>
+              </div>
+            </div>
+            <div id="email-error" class="errors emailError hidden">
+              <div class="er-div-1">
+                <p>Invalid Email</p>
+                <img
+                  src="./assests/close.png"
+                  alt="error"
+                  class="error-icon2"
+                />
+              </div>
+              <div class="er-div-2">
+                <p class="error-message">Please enter valid Email</p>
+              </div>
+            </div>
+            <div id="phone-error" class="errors phoneError hidden">
+              <div class="er-div-1">
+                <p>Invalid Phone</p>
+                <img
+                  src="./assests/close.png"
+                  alt="error"
+                  class="error-icon3"
+                />
+                <!-- <img src="" alt="" /> -->
+              </div>
+              <div class="er-div-2">
+                <p class="error-message">Please enter valid Phone</p>
+              </div>
+            </div>
+            <div id="date-error" class="errors dateError hidden">
+              <div class="er-div-1">
+                <p>Invalid Date</p>
+                <img
+                  src="./assests/close.png"
+                  alt="error"
+                  class="error-icon4"
+                />
+                <!-- <img
+                  src="./assests/error-icon.svg"
+                  alt="error"
+                  class="error-icon"
+                /> -->
+                <!-- <img src="" alt="" /> -->
+              </div>
+              <div class="er-div-2">
+                <p class="error-message">Please enter valid date</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-text-div">
+          <h1>Personal information</h1>
+          <p>These Are Basic Information Fields</p>
+        </div>
+
+        <div class="form-container">
+          <form id="userForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Name" name="name" />
+              <img
+                src="./assests/check-circle-fill.svg"
+                alt="success"
+                id="nameCheck"
+                class="hidden succes"
+              />
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="email" placeholder="Email" name="email" />
+              <img
+                src="./assests/check-circle-fill.svg"
+                alt="success"
+                id="emailCheck"
+                class="hidden succes"
+              />
+            </div>
+
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" placeholder="Phone" />
+              <img
+                src="./assests/check-circle-fill.svg"
+                alt="success"
+                id="phoneCheck"
+                class="hidden succes"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                id="dob"
+                name="dob"
+                type="text"
+                placeholder="Date Of birth"
+              />
+
+              <img
+                src="./assests/check-circle-fill.svg"
+                alt="success"
+                id="dobCheck"
+                class="hidden succes"
+              />
+            </div>
+            <div class="buttons">
+              <a class="a-1" id="submit" href="./index.html">Back</a>
+              <button class="button1" type="submit">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
